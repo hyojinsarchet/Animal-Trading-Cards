@@ -1,0 +1,26 @@
+.container {
+  border: 2px solid gray;
+  width: 350px;
+  margin: 0 auto;
+  box-shadow: 10px 10px 8px;
+  border: groove;
+  padding: 0 0 0 30px
+}
+.container2 {
+  border: 2px solid gray;
+}
+
+img {
+  width: 300px;
+  max-width: 100%;
+  display: center;
+}
+h3 {
+  font-family: 'Spectral', serif;
+}
+span {
+  font-weight: bold;
+}
+p {
+  font-family: 'Hind', sans-serif;
+}
