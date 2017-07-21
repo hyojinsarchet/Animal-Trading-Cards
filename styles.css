@@ -1,4 +1,4 @@
-.container {
+.outer_container {
   border: 3px solid rgb(194, 194, 194);
   padding-left: 5px;
   padding-bottom: 5px;
@@ -9,35 +9,39 @@
   border: groove;
   border-radius: 5px;
 }
-.container2 {
+
+.inner_container {
   border: 3px solid rgb(194, 194, 194);
   width: 297px;
   background-color: white;
   border-radius: 5px;
   padding: inherit;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 5px;
+  margin: 0 5px 5px;
 }
 
-img {
+.puppy_pic {
   border: 3px solid rgb(194, 194, 194);
   width: 300px;
   height: 300px;
   max-width: 100%;
   display: center;
   border-radius: 5px;
-  margin-bottom: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin: 0 5px 10px 5px;
 }
-h3 {
+
+.puppy_name {
   font-family: 'Open Sans', sans-serif;
   margin-left: 20px;
 }
-span {
+
+.fact_label {
   font-weight: bold;
 }
-p {
+
+.interesting_fact_textinteresting_fact_text {
   font-family: 'Amiri', serif;
+}
+
+ul{
+  list-style: none;
 }
